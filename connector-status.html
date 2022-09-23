@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connector Status Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Noto Sans", sans-serif;
+        color: #2b3952;
+        font-size: 16px;
+        text-align: left;
+      }
+
+      div {
+        width: 766px;
+        margin-top: 26px;
+        margin-left: 75px;
+        margin-right: 39px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #007e91;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+
+      img {
+        object-fit: contain;
+        display: block;
+        margin-top: 71px;
+        margin-left: 236px;
+      }
+
+      table {
+        background-color: #f5f6f8;
+        margin-top: 24px;
+        margin-bottom: 21px;
+        border-radius: 10px;
+        border-collapse: collapse;
+      }
+
+      tr:not(:last-child) {
+        border-bottom: 1px solid #b2b9c741;
+      }
+
+      th {
+        width: 287px;
+        padding-left: 24px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+
+      td {
+        padding-left: 24px;
+        padding-right: 35px;
+      }
+
+      ul {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: 19px;
+      }
+
+      li:not(:last-child) {
+        margin-bottom: 8px;
+      }
+
+      .multiline {
+        display: flex;
+      }
+
+      tr:last-child>td:last-child {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p> This Spike in &lt;Memory or CPU&gt; alert is to inform you that an unusually high &lt;Memory or CPU&gt; usage has been detected for the below mentioned resources: </p>
+      <table>
+        <tr>
+          <th>Workspace</th>
+          <td>extremenetworks</td>
+        </tr>
+        <tr>
+          <th>Affected Service Connector</th>
+          <td>S-Conn_001</td>
+        </tr>
+        <tr>
+          <th>Memory</th>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <th>CPU</th>
+          <td>80%</td>
+        </tr>
+        <tr>
+          <th>Spike Time</th>
+          <td>09/09/2022 04:42 PM</td>
+        </tr>
+        <tr>
+          <th>Details</th>
+          <td> There's been an issue in the database. <a href="#">Check Logs</a>
+          </td>
+        </tr>
+        <tr>
+          <th class="multiline">Recommendations</th>
+          <td>
+            <ul>
+              <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
+              <li> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
+              <li> but also the leap into electronic typesetting, remaining essentially unchanged. </li>
+              <li> Lorem Ipsum passages, and more recently with desktop publishing </li>
+              <li> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <p> Please view your insights to see the spike trend or check your service connectors to further look into the spikes. </p>
+      <img src="https://extremecloud-ztna-logo.s3.us-east-2.amazonaws.com/extreme_signature.png" alt="extreme_signature_icon" width="250.6" height="27" />
+      <p style="
+          width: 301px;
+          height: 19px;
+          font-size: 14px;
+          line-height: 1.57;
+          color: #b2b9c7;
+          font-family: 'Open Sans', sans-serif;
+          margin-left: 211px;
+          margin-top: 11px;
+          margin-bottom: 10px;
+          text-align: center;
+        "> &copy; 2022 ExtremeCloud ZTA - All rights reserved </p>
+    </div>
+  </body>
+</html>
