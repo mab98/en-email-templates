@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Service Connector Upgrade Alert</title>
+    <title>{{.resource}} Upgrade Alert</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,7 +54,7 @@
           color: #2b3952;
         "
       >
-        Service Connector Upgrade Alert
+        {{.resource}} Upgrade Alert
       </h1>
 
       <p
@@ -68,8 +68,8 @@
         "
       >
         According to our records, it appears that you're using an older version
-        of the Service Connectors, which will no longer be supported after
-        September 1st, 2023. To ensure uninterrupted usage, we highly recommend
+        of the {{.resource}}s, which will no longer be supported after
+        {{.version_expiry}}. To ensure uninterrupted usage, we highly recommend
         upgrading to the latest version available as soon as possible.
       </p>
 
@@ -116,7 +116,7 @@
               text-align: left;
             "
           >
-            develop:v1
+            {{.version}}
           </td>
         </tr>
 
@@ -151,7 +151,7 @@
               text-align: left;
             "
           >
-            Service Connectors
+            {{.resource}}s
           </td>
         </tr>
 
@@ -186,7 +186,7 @@
               text-align: left;
             "
           >
-            09/09/2023
+            {{.version_expiry}}
           </td>
         </tr>
       </table>
